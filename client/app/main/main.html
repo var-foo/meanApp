@@ -1,0 +1,21 @@
+<header class="hero-unit" id="banner">
+  <div class="container">
+    <h1>'Allo, 'Allo, {{currentUser}}!</h1>
+    <p class="lead">Get yo recipe app on!</p>
+      <p>Built with</p>
+    <img src="assets/images/yeoman.png" alt="I'm Yeoman">
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Features:</h1>
+      <ul class="nav nav-tabs nav-stacked col-lg-6" ng-repeat="thing in awesomeThings">
+        <li><a href="#" tooltip="{{thing.info}}">{{thing.name}}</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
